@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:context=".tugasTerstruktur.KalkulatorJavaActivity">
+
+    <LinearLayout
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:padding="20dp"
+            android:text="Clear"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edt_input"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3">
+
+        <!-- Row 1 -->
+        <Button
+            android:id="@+id/btn_angka_7"
+            android:padding="20dp"
+            android:text="7"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_angka_8"
+            android:padding="20dp"
+            android:text="8"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_angka_9"
+            android:padding="20dp"
+            android:text="9"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Row 2 -->
+        <Button
+            android:id="@+id/btn_angka_4"
+            android:padding="20dp"
+            android:text="4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_angka_5"
+            android:padding="20dp"
+            android:text="5"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_angka_6"
+            android:padding="20dp"
+            android:text="6"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Row 3 -->
+        <Button
+            android:id="@+id/btn_angka_1"
+            android:padding="20dp"
+            android:text="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_angka_2"
+            android:padding="20dp"
+            android:text="2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_angka_3"
+            android:padding="20dp"
+            android:text="3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Row 4 -->
+        <Button
+            android:id="@+id/btn_operator_tambah"
+            android:padding="20dp"
+            android:text="+"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_angka_0"
+            android:padding="20dp"
+            android:text="0"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_operator_minus"
+            android:padding="20dp"
+            android:text="-"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Row 5 -->
+        <Button
+            android:id="@+id/btn_operator_kali"
+            android:padding="20dp"
+            android:text="x"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_hasil"
+            android:padding="20dp"
+            android:text="="
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_operator_bagi"
+            android:padding="20dp"
+            android:text="/"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Row 6 -->
+        <Button
+            android:id="@+id/btn_operator_desimal"
+            android:padding="20dp"
+            android:text="."
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </GridLayout>
+
+</LinearLayout>

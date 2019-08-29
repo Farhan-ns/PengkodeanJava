@@ -9,19 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".tugasTerstruktur.KonverterSuhuActivity">
+        <activity android:name=".tugasTerstruktur.KalkulatorJavaActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"></action>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"></category>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".KalkulatorActivity">
+        <activity android:name=".tugasTerstruktur.KonverterSuhuActivity">
 
         </activity>
-        <activity android:name=".HitungLuasActivity">
-
-        </activity>
+        <activity android:name=".KalkulatorActivity"></activity>
+        <activity android:name=".HitungLuasActivity"></activity>
     </application>
 
 </manifest>
